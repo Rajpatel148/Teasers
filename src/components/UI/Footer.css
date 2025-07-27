@@ -1,0 +1,48 @@
+.footer{
+     width: 100%;
+     padding: 2rem 0;
+     background-color: rgb(0, 0, 0);
+     color: rgb(180, 180, 180);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-top: 1px solid rgb(15, 15, 15);
+}
+.footer-content{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     font-family: monospace;
+}
+.footer-content-discl{
+     padding: 0 1rem 1rem;
+}
+.footer-content-discl-title{
+     color: rgb(206, 0, 7);
+     font-size: large;
+     text-decoration: underline;
+     padding-bottom: 0.1rem;
+}
+.created-text{
+     font-size: 0.7rem;
+}
+.appAuthor{
+     color: inherit;
+     font-weight: bold;
+     padding: 0.5rem;
+     letter-spacing: 3.5px;
+     text-decoration: none;
+     &:hover{
+          text-decoration: underline;
+     }
+}
+.gitIcon{
+     border-radius: 50%;
+     color: inherit;
+     font-size: 1.5rem;
+     &:hover{
+          box-shadow: 0px 0px 4px 0px #ffffff;
+          color: rgb(255, 255, 255);
+     }
+}

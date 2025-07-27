@@ -1,0 +1,153 @@
+export const category = {
+   // #trending_week
+   trending: {
+      id: "trending",
+      title: "Trending Now",
+      url: "trending/all/week?language=en-US",
+   },
+   // #with_networks
+   origin: {
+      id: "origin",
+      title: "Origins",
+      url: "discover/tv?with_networks=213",
+   },
+   // #with_genres
+   action: {
+      id: "action",
+      api_id: 28,
+      title: "Action",
+      url: "discover/movie?with_genres=28",
+   },
+   adventure: {
+      id: "adventure",
+      api_id: 12,
+      title: "Adventure",
+      url: "discover/movie?with_genres=12",
+   },
+   animation: {
+      id: "animation",
+      api_id: 16,
+      title: "Animation",
+      url: "discover/movie?with_genres=16",
+   },
+   comedy: {
+      id: "comedy",
+      api_id: 35,
+      title: "Comedy",
+      url: "discover/movie?with_genres=35",
+   },
+   crime: {
+      id: "crime",
+      api_id: 80,
+      title: "Crime",
+      url: "discover/movie?with_genres=80",
+   },
+   documentary: {
+      id: "documentary",
+      api_id: 99,
+      title: "Documentary",
+      url: "discover/movie?with_genres=99",
+   },
+   drama: {
+      id: "drama",
+      api_id: 18,
+      title: "Drama",
+      url: "discover/movie?with_genres=18",
+   },
+   family: {
+      id: "family",
+      api_id: 10751,
+      title: "Family",
+      url: "discover/movie?with_genres=10751",
+   },
+   fantasy: {
+      id: "fantasy",
+      api_id: 14,
+      title: "Fantasy",
+      url: "discover/movie?with_genres=14",
+   },
+   history: {
+      id: "history",
+      api_id: 36,
+      title: "History",
+      url: "discover/movie?with_genres=36",
+   },
+   horror: {
+      id: "horror",
+      api_id: 27,
+      title: "Horror",
+      url: "discover/movie?with_genres=27",
+   },
+   music: {
+      id: "music",
+      api_id: 10402,
+      title: "Music",
+      url: "discover/movie?with_genres=10402",
+   },
+   mystery: {
+      id: "mystery",
+      api_id: 9648,
+      title: "Mystery",
+      url: "discover/movie?with_genres=9648",
+   },
+   romance: {
+      id: "romance",
+      api_id: 10749,
+      title: "Romance",
+      url: "discover/movie?with_genres=10749",
+   },
+   fiction: {
+      id: "fiction",
+      api_id: 878,
+      title: "Science Fiction",
+      url: "discover/movie?with_genres=878",
+   },
+   tv: {
+      id: "tv",
+      api_id: 10770,
+      title: "TV Movies",
+      url: "discover/movie?with_genres=10770",
+   },
+   thriller: {
+      id: "thriller",
+      api_id: 53,
+      title: "Thriller",
+      url: "discover/movie?with_genres=53",
+   },
+   war: {
+      id: "war",
+      api_id: 10752,
+      title: "War",
+      url: "discover/movie?with_genres=10752",
+   },
+   western: {
+      id: "western",
+      api_id: 37,
+      title: "Western",
+      url: "discover/movie?with_genres=37",
+   },
+};
+
+// {
+//    trending,
+//    origin,
+//    action,
+//    adventure,
+//    animation,
+//    comedy,
+//    crime,
+//    documentary,
+//    drama,
+//    family,
+//    fantasy,
+//    history,
+//    horror,
+//    music,
+//    mystery,
+//    romance,
+//    fiction,
+//    tv,
+//    thriller,
+//    war,
+//    western,
+// };
