@@ -5,7 +5,7 @@ import Footer from "../components/UI/Footer";
 import { useQuery } from "@tanstack/react-query";
 import { fetchMovies } from "../api/fetchMovies";
 import { PropagateLoader } from "react-spinners";
-import "./HomePage.css";
+import './HomePage.css';
 import { useEffect, useState } from "react";
 import { category } from "../data/category.data";
 
