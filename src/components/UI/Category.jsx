@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { category as categoryData } from "../../Data/category.data";
+import { category as categoryData } from "../../data/category.data";
 import { useNavigate, useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { api, fetchMovieDetails } from "../../api/fetchMovies";
