@@ -13,6 +13,7 @@ const RowPost = ({ category, w_sm }) => {
   const { data: rowMovies, isLoading } = useQuery({
     queryKey: [category.id],
     queryFn: () => fetchMovies(category.url),
+    staleTime:600*1000, // 10 minutes`
   });
 
   const handleMovieDetails = async (movie)=>{
