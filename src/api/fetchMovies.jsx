@@ -44,3 +44,10 @@ export const fetchMovieDetails = async (movie) => {
     };
   }
 };
+
+export const fetchSearchResults = async (query,page) => {
+  const { data } = await api.get(
+    `/search/movie?query=${query}&include_adult=false&api_key=${API_KEY}&language=en-US&page=${page}`
+  );
+  return data;
+}

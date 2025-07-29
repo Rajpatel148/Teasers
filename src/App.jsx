@@ -6,6 +6,7 @@ import DetailsPage from "./pages/DetailsPage.jsx";
 import CategoryPage from "./pages/CategoryPage.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Error from "./pages/Error.jsx";
+import SearchResultPage from "./pages/SearchResultPage.jsx";
 
 function App() {
 
@@ -30,6 +31,10 @@ function App() {
           path: "/category/:categoryID/:page",
           element: <CategoryPage />,
         },
+        {
+          path: "/search/:query/:page",
+          element: <SearchResultPage />,
+        }
       ],
     },
   ]);
