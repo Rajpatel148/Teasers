@@ -7,6 +7,7 @@ import CategoryPage from "./pages/CategoryPage.jsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Error from "./pages/Error.jsx";
 import SearchResultPage from "./pages/SearchResultPage.jsx";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />
       </QueryClientProvider>
+       <Analytics />
     </>
   );
 }
